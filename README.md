@@ -7,8 +7,6 @@ A modern web application for learning and experimenting with machine learning mo
 - **Interactive Learning**: Experiment with 5 different datasets and multiple ML models
 - **Real-time Visualization**: See results with interactive charts and metrics
 - **Hyperparameter Tuning**: Adjust model parameters with intuitive sliders and controls  
-- **Modern UI**: Built with React, TypeScript, TailwindCSS, and shadcn/ui components
-- **Fast Backend**: Powered by FastAPI with scikit-learn for ML capabilities
 
 ## 🚀 Quick Start
 
@@ -95,13 +93,6 @@ cd /home/disha/winterArc/TweakML
 ### Clustering
 - K-Means Clustering
 
-## 🎛️ Hyperparameter Controls
-
-Each model includes relevant hyperparameters with intuitive controls:
-
-- **Sliders** for numeric values (max_depth, n_estimators, C, etc.)
-- **Dropdowns** for categorical choices (kernel, penalty, init)
-- **Toggles** for boolean parameters (fit_intercept)
 
 ## 📈 Visualizations
 
@@ -124,12 +115,6 @@ Each model includes relevant hyperparameters with intuitive controls:
 - **pandas** for data handling
 - **NumPy** for numerical operations
 
-## 🔧 API Endpoints
-
-- `GET /datasets` - Get all available datasets with previews
-- `GET /models` - Get available models and their hyperparameters
-- `POST /train` - Train a model with specified parameters
-
 ## 🎯 Usage Flow
 
 1. **Landing Page**: Enter email to access playground
@@ -137,21 +122,6 @@ Each model includes relevant hyperparameters with intuitive controls:
 3. **Choose Model**: Pick appropriate model based on task type
 4. **Tune Parameters**: Adjust hyperparameters with interactive controls
 5. **Train & View**: See real-time results with metrics and charts
-
-## 🤝 Contributing
-
-This is a V0 implementation focused on core functionality. Future enhancements could include:
-
-- More datasets and models
-- Advanced visualization options  
-- Model comparison features
-- Export capabilities
-- User authentication
-
-## 📄 License
-
-MIT License - feel free to use and modify for learning purposes.
-
 ---
 
 **Built with ❤️ for ML education and experimentation**
